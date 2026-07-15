@@ -1,13 +1,32 @@
-<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="100%" height="250">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
-      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7eb3" />
+      <stop offset="100%" stop-color="#ff758c" />
     </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <rect width="100%" height="100%" fill="url(#grad)" />
-  <text x="50%" y="50%" font-size="40" font-family="Arial" fill="white" text-anchor="middle" dominant-baseline="middle">
-    Awesome No-Code Android App Builders
-    <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite" />
+  <rect width="100%" height="100%" fill="url(#bg)" rx="20"/>
+  
+  <g stroke="white" stroke-width="2" opacity="0.4">
+    <path d="M0,125 Q250,50 500,125 T1000,125" fill="none">
+      <animate attributeName="d" values="M0,125 Q250,50 500,125 T1000,125; M0,125 Q250,200 500,125 T1000,125; M0,125 Q250,50 500,125 T1000,125" dur="4s" repeatCount="indefinite" />
+    </path>
+    <path d="M0,125 Q250,200 500,125 T1000,125" fill="none">
+      <animate attributeName="d" values="M0,125 Q250,200 500,125 T1000,125; M0,125 Q250,50 500,125 T1000,125; M0,125 Q250,200 500,125 T1000,125" dur="4s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <text x="50%" y="45%" text-anchor="middle" font-family="Verdana, sans-serif" font-size="52" font-weight="900" fill="#ffffff" filter="url(#glow)">
+    NO-CODE APPS
+  </text>
+  <text x="50%" y="75%" text-anchor="middle" font-family="Verdana, sans-serif" font-size="28" fill="#ffe0e6" letter-spacing="2">
+    Awesome Android App Builders
   </text>
 </svg>
