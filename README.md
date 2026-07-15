@@ -12,11 +12,14 @@ A curated guide to leading **SaaS/cloud-hosted No-Code Android App Builders** (l
 Popular visual development platforms for building native or cross-platform Android apps without writing code.
 
 ### Leading Options
-- **[Adalo](https://adalo.com)** — Drag-and-drop builder for native mobile apps with database integration.
-- **[Appy Pie](https://appypie.com)** — AI-assisted no-code app creation for Android/iOS.
-- **[Thunkable](https://thunkable.com)** — Visual programming with advanced components and live testing.
-- **[FlutterFlow](https://flutterflow.io)** — Visual builder for Flutter-based high-performance apps.
-- **[Andromo](https://andromo.com)** — Focused on monetized Android apps with templates.
+
+| Product | Description | Pricing | Free Tier Limit | Valuation/Revenue |
+|---------|-------------|---------|-----------------|-------------------|
+| **[FlutterFlow](https://flutterflow.io)** | Visual builder for Flutter-based high-performance apps. | Starts at $30/mo | Core features only, no code export | ~$170M Valuation |
+| **[Appy Pie](https://appypie.com)** | AI-assisted no-code app creation for Android/iOS. | Starts at $16/mo | App testing only, no publishing | ~$50M ARR |
+| **[Adalo](https://adalo.com)** | Drag-and-drop builder for native mobile apps with database integration. | Starts at $36/mo | 1 published app, limited records | ~$35M Valuation |
+| **[Thunkable](https://thunkable.com)** | Visual programming with advanced components and live testing. | Starts at $13/mo | Public projects only, limited downloads | ~$25M Valuation |
+| **[Andromo](https://andromo.com)** | Focused on monetized Android apps with templates. | Starts at $8/mo | 14-day free trial, no permanent free tier | ~$5M ARR |
 
 These platforms enable rapid prototyping and deployment with minimal technical expertise.
 
