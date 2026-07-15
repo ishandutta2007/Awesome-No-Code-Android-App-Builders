@@ -31,10 +31,11 @@ Open-source tools provide low-code/no-code experiences or code generation for An
 
 ### Featured Projects
 
+- **[NocoDB](https://nocodb.com)** [![NocoDB Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) — Open-source Airtable alternative for backend, integrable with mobile builders.
+- **[Appsmith](https://appsmith.com)** [![Appsmith Stars](https://img.shields.io/github/stars/appsmithorg/appsmith?style=social&color=white)](https://github.com/appsmithorg/appsmith/stargazers) — Self-hosted low-code platform for internal tools that can extend to mobile.
+- **[Tooljet](https://tooljet.com)** [![Tooljet Stars](https://img.shields.io/github/stars/ToolJet/ToolJet?style=social&color=white)](https://github.com/ToolJet/ToolJet/stargazers) — Low-code platforms adaptable for mobile/web apps.
+- **[Budibase](https://budibase.com)** [![Budibase Stars](https://img.shields.io/github/stars/budibase/budibase?style=social&color=white)](https://github.com/budibase/budibase/stargazers) — Low-code platforms adaptable for mobile/web apps.
 - **[MIT App Inventor](https://appinventor.mit.edu)** — Visual, block-based development environment for building Android apps. Beginner-friendly and widely used in education.
-- **[FlutterFlow open-source aspects** or self-hosted alternatives] — Visual builders exporting to Flutter code.
-- **[Budibase](https://budibase.com)** or **[Tooljet](https://tooljet.com)** — Low-code platforms adaptable for mobile/web apps (with React Native/Flutter export potential).
-- **[NocoDB](https://nocodb.com)** — Open-source Airtable alternative for backend, integrable with mobile builders.
 
 ### Additional Open-Source Tools
 - **Flutter** / **React Native** with visual IDE extensions or low-code layers.
